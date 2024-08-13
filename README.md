@@ -4,7 +4,7 @@ Unofficial API of [Hamster Kombat](https://t.me/Hamster_kombat_bot/start?startap
 ## Usage
 This fixed address contains the required data that you can read and use in your code:
 
-[https://alirezaraz21.github.io/api/config.json](https://alirezaraz21.github.io/api/config.json)
+[https://alirezaraz21.github.io/Hamster-combocard-api/config.json](https://alirezaraz21.github.io/Hamster-combocard-api/config.json)
 
 ## Sample codes
 
@@ -12,7 +12,7 @@ python:
 ```python
 import requests
 
-url = "https://alirezaraz21.github.io/api/config.json"
+url = "https://alirezaraz21.github.io/Hamster-combocard-api/config.json"
 response = requests.get(url)
 data = response.json()
 
@@ -23,7 +23,7 @@ nodejs:
 ```js
 import fetch from 'node-fetch';
 
-const url = 'https://alirezaraz21.github.io/api/config.json';
+const url = 'https://alirezaraz21.github.io/Hamster-combocard-api/config.json';
 
 fetch(url)
     .then(response => response.json())
@@ -38,7 +38,7 @@ fetch(url)
 php:
 ```php
 <?php
-$url = 'https://alirezaraz21.github.io/api/config.json';
+$url = 'https://alirezaraz21.github.io/Hamster-combocard-api/config.json';
 $json = file_get_contents($url);
 $data = json_decode($json, true);
 
@@ -57,7 +57,7 @@ import (
 )
 
 func main() {
-	url := "https://alirezaraz21.github.io/api/config.json"
+	url := "https://alirezaraz21.github.io/Hamster-combocard-api/config.json"
 
 	resp, err := http.Get(url)
 	if err != nil {
