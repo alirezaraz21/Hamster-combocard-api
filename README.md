@@ -1,5 +1,5 @@
 ## About
-Unofficial API of [Hamster Kombat](https://t.me/Hamster_kombat_bot/start?startapp=kentId241876313) telegram game to get daily cards and Morse and ...
+Unofficial API of [Hamster Kombat](https://t.me/Hamster_kombat_bot/start?startapp=kentId241876313) telegram game to get daily cards and ...
 
 ## Usage
 This fixed address contains the required data that you can read and use in your code:
